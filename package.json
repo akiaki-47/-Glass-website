@@ -1,0 +1,21 @@
+{
+    "name": "mdc-web-starter",
+    "version": "0.1.0",
+    "private": true,
+    "engines": {
+      "node": "10.x"
+    },
+    "main": "index.html",
+    "scripts": {
+      "start": "parcel ./index.html --open",
+      "build": "parcel build ./index.html"
+    },
+    "dependencies": {
+      "@material/mwc-button": "canary",
+      "@material/typography": "^5.1.0"
+    },
+    "devDependencies": {
+      "parcel": "^1.12.4"
+    }
+  }
+  
